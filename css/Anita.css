@@ -1,0 +1,33 @@
+.header{
+  background-image: url("../images/backgrounds/landing.jpg");
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+.breakfast{
+background-image: url("../images/foodtop/breakfast.jpg");
+color: white;
+text-align: center;
+height:inherit;
+}
+.lunch{
+background-image: url("../images/foodtop/lunch.jpg");
+color: white;
+text-align: center;
+}
+.dinner{
+background-image: url("../images/foodtop/dinner.jpg");
+color: white;
+text-align: center;
+
+}
+.happy{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.party{
+  text-align: center;
+  background-color: #F15A29;
+  color: white;
+}
