@@ -1,5 +1,7 @@
+x
 <!Doctype html>
 <html>
+
   <head>
     <title>ANITA'S KITCHEN</title>
     <meta charset="utf-8">
@@ -9,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/Anita.css" rel="stylesheet" type="text/css">
   </head>
+
   <body>
     <div>
       <div class="jumbotron text-centre header">
@@ -16,18 +19,19 @@
         <p>We Provide The Best Food<br>At The <strong>Right Price</strong></p>
       </div>
     </div>
-    <div class="row">
+    <div class="container-fluid row">
       <div class="col-sm-3">
         <div class="row happy">
-            <p>  Happy Hour </p>
+          <p> Happy Hour </p>
         </div>
         <div class="row party">
           <p> Party Time</p>
         </div>
       </div>
-      <div class="col-sm-3 breakfast" >
+      <div class="col-sm-3 breakfast">
         <p>Breakfast</p>
       </div>
+      <!--Break-->
       <div class="col-sm-3 lunch">
         <p>Lunch</p>
       </div>
@@ -35,11 +39,82 @@
         <p>Dinner</p>
       </div>
     </div>
-    <div>
-      
+    <div class="container">
+      <div class="container-fluid row ">
+        <div class="container col-sm-6 fastfood ">
+          <img src="images/fastFood1.jpg">
+          <img src="images/fastFood2.jpg">
+        </div>
+        <div class="container col-sm-6">
+          <h1>Fast Foods</h1>
+          <h3>You'll love delicious fast food</h3>
+        </div>
+      </div>
+      <div class="container row">
+        <div class="container col-sm-6">
+          <p>
+            <h1>Drinks</h1>
+          </p>
+          <!--Text for Drinks-->
+        </div>
+        <div class="container col-sm-6 drinks">
+          <div class="row">
+            <img class="col-sm-6" src="images/drink1.jpg">
+            <img class="col-sm-6" src="images/drink2.jpg">
+          </div>
+        </div>
+        <!--Images for drinks-->
+      </div>
     </div>
-    <script src="js/splinter.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <div class="foodbg">
+      <nav class="navbar navbar-static">
+        <div class="img-thumbnail">
+          <ul class="nav nav-tabs ">
+            <li class="active"><a data-toggle="tab" href="#Home">Fast Food</a></li>
+            <li><a data-toggle="tab" href="#">Drinks</a></li>
+            <li><a data-toggle="tab" href="#">Chicken</a></li>
+            <li><a data-toggle="tab" href="#">Rice</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+              <span class=" glyphic glyphicon glyphicon-chevron-left">
+              <img src="images/fastfood/beefBurger.jpg" alt="">
+              <img src="images/fastfood/chickenPizza.jpg" alt="">
+              <img src="images/fastfood/chickenBurger.jpg" alt="">
+              <span class=" glyphic glyphicon glyphicon-chevron-right"></span>
+            </div>
+          </div>
+      </nav>
+      </div>
+      <div class="testimonials">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-7">
+              <h4>Our happy customers</h4>
+              <h6>George Richard</h6>
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <img class="mySlides" src="images/customers/p1.png">
+              <img class="mySlides" src="images/customers/p2.png">
+              <img class="mySlides" src="images/customers/p1.png">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </div>
+
+
+            <div class="col-md-5" id="col">
+              <h4>About Menu</h4>
+              <p>We are menu a little team</p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="container-fluid">
+      </div>
+      <script src="js/splinter.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
+
 </html>
