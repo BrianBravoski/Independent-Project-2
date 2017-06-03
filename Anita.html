@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/Anita.css" rel="stylesheet" type="text/css">
   </head>
@@ -66,61 +66,88 @@
       </div>
     </div>
     <div class="foodbg">
-      <nav class="navbar navbar-static">
-        <div class="img-thumbnail">
-          <ul class="nav nav-tabs ">
-            <li class="active"><a data-toggle="tab" href="#Home">Fast Food</a></li>
-            <li><a data-toggle="tab" href="#">Drinks</a></li>
-            <li><a data-toggle="tab" href="#">Chicken</a></li>
-            <li><a data-toggle="tab" href="#">Rice</a></li>
-          </ul>
+      <!--menu section-->
+      <div class="jumbotron1">
 
-          <div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-              <span class=" glyphic glyphicon glyphicon-chevron-left">
-              <img src="images/fastfood/beefBurger.jpg" alt="">
-              <img src="images/fastfood/chickenPizza.jpg" alt="">
-              <img src="images/fastfood/chickenBurger.jpg" alt="">
-              <span class=" glyphic glyphicon glyphicon-chevron-right"></span>
-            </div>
-          </div>
-      </nav>
-      </div>
-      <div class="testimonials">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-7">
-              <h4>Our happy customers</h4>
-              <h6>George Richard</h6>
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <img class="mySlides" src="images/customers/p1.png">
-              <img class="mySlides" src="images/customers/p2.png">
-              <img class="mySlides" src="images/customers/p1.png">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="col-sm-5" id="col">
-              <h4>About Menu</h4>
-              <p>We are menu a little team</p>
+        <div class="fast-foods">
+          <div class="menu-tabs">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <li class="active"><a data-toggle="tab" href="#fastfood">Fast Food</a></li>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">drinks</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">chicken</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="#" class="nav-link">rice</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div id=fastfood class="tab-pane fade in active">
+                      <table class="table">
+                        <tr>
+                          <td><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color: #F15A29; padding-top:100px"></td>
+                                              <td><img src="images/fastfood/chickenBurger.jpg" alt="" class="img-responsive"> <br/> Chicken Burger</td>
+                                              <td><img src="images/fastfood/beefBurger.jpg" alt="" class="img-responsive"> <br/> Beef Burger</td>
+                                              <td><img src="images/fastfood/chickenPizza.jpg" alt="" class="img-responsive"> <br/> Chicken Pizza</td>
+                                              <td><span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color: #F15A29; padding-top:100px"></td>
+                                          </tr>
+                                  </table>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
-            </div>
           </div>
         </div>
+    </div><!--End of menu section-->
+    <div class="customers">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-7">
+            <h4>Our happy customers</h4>
+            <h6>George Richard</h6>
+            <p>Great food! Menu is awesome, their foods are not only great but also in the rightprice.I'll recommend then:)</p>
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <img class="mySlides" src="images/customers/p1.png">
+                            <img class="mySlides" src="images/customers/p2.png">
+                            <img class="mySlides" src="images/customers/p1.png">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-sm-5" id="col">
+                      <h4>About Menu</h4>
+                      <p>We are menu a little team</p>
 
-      </div>
-      <div class="container-fluid subscribe jumbotron text-centre">
-        <p><strong>Get our daily food items delivered to your email</strong></p>
-        <form>
-          <label for="email">Your e-mail address:</label>
-          <input id="e-mail" name="e-mail" placeholder="Your email" />
-          <input type="Subscribe" value="Subscribe" />
-        </form>
-      </div>
-    </div>
-    <footer>
-      <h1><img src="images/footerlogos/logo_white.png">MENU<h1>
-        <h2>That's What We Are</h2>
-        <p>2017 Menu Restaurant</p>
-    </footer>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="container-fluid subscribe jumbotron text-centre">
+                <p><strong>Get our daily food items delivered to your email</strong></p>
+                <form>
+                  <label for="email">Your e-mail</label>
+                  <input id="e-mail" name="e-mail" placeholder="Your email" />
+                  <input type="Subscribe" value="Subscribe" />
+                </form>
+              </div>
+            </div>
+            <footer>
+              <h1><img src="images/footerlogos/logo_white.png"> MENU<h1>
+              <h2>That's What We Are</h2>
+              <img src="images/footerlogos/facebook.png" alt="facebook">
+               <img src="images/footerlogos/twitter.png" alt="twitter">
+               <img src="images/footerlogos/pinterest.png" alt="pinterest">
+              <p>2017 Menu Restaurant</p>
+            </footer>
     <script src="js/splinter.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
