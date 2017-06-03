@@ -2,6 +2,7 @@
   background-image: url("../images/backgrounds/landing.jpg");
   color: white;
   background-size: cover;
+  background-position: center;
   text-align: center;
   position:relative;
   margin: 0px;
@@ -22,7 +23,8 @@
   backface-visibility: hidden;
 }
 .breakfast:hover {
-  opacity: 0.7
+  opacity: 0.7;
+  color: black;
 }
 .lunch{
   background-image: url("../images/foodtop/lunch.jpg");
@@ -39,7 +41,8 @@
   backface-visibility: hidden;
 }
 .lunch:hover {
-  opacity: 0.7
+  opacity: 0.7;
+  color: black;
 }
 .dinner{
   background-image: url("../images/foodtop/dinner.jpg");
@@ -57,7 +60,8 @@
   backface-visibility: hidden;
 }
 .dinner:hover {
-  opacity: 0.7
+  opacity: 0.7;
+  color: black;
 }
 .happy{
   text-align: center;
@@ -65,6 +69,7 @@
   margin: 0px;
   height: 113px;
   font-family: Merriweather;
+  padding: 50px;
 }
 .party{
   text-align: center;
@@ -72,6 +77,7 @@
   color: white;
   height: 113px;
   font-family: Merriweather;
+  padding : 50px;
 }
 .fastfood{
   padding:10px;
@@ -100,12 +106,15 @@ footer{
   width: 980px;
   height:390px ;
   font-family: Merriweather;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .drinks{
   box-shadow: 1px 1px 1px 1px;
   padding:5px;
   margin-bottom: 10px;
   font-family: Merriweather;
+  text-align: left;
 }
 table{
   color: #f15a29;
@@ -118,4 +127,33 @@ table{
 }
 form{
   opacity: 0.3;
+}
+.drink{
+  text-align: right;
+  font-family: Merriweather;
+}
+.btn{
+  color: #f15a29;
+  margin: 5px;
+}
+header{
+  text-align: left;
+  opacity: 0.3;
+}
+.customers{
+  text-align: center;
+margin: 75px 100px 75px 100px;
+border: 10px solid #fff;
+box-shadow: -1px 1px 5px 4px #E3E3E3;
+padding: 20px 20px 20px 20px;
+}
+.button {
+  padding: 15px 25px;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #f15a29;
 }
