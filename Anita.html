@@ -1,4 +1,3 @@
-x
 <!Doctype html>
 <html>
 
@@ -42,8 +41,8 @@ x
     <div class="container">
       <div class="container-fluid row ">
         <div class="container col-sm-6 fastfood ">
-          <img src="images/fastFood1.jpg">
-          <img src="images/fastFood2.jpg">
+          <img src="images/fastFood1.jpg" class="img-responsive">
+          <img src="images/fastFood2.jpg" class="img-responsive">
         </div>
         <div class="container col-sm-6">
           <h1>Fast Foods</h1>
@@ -59,8 +58,8 @@ x
         </div>
         <div class="container col-sm-6 drinks">
           <div class="row">
-            <img class="col-sm-6" src="images/drink1.jpg">
-            <img class="col-sm-6" src="images/drink2.jpg">
+            <img class="col-sm-6 img-responsive" src="images/drink1.jpg">
+            <img class="col-sm-6 img-responsive" src="images/drink2.jpg">
           </div>
         </div>
         <!--Images for drinks-->
@@ -90,7 +89,7 @@ x
       <div class="testimonials">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-7">
+            <div class="col-sm-7">
               <h4>Our happy customers</h4>
               <h6>George Richard</h6>
               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -99,9 +98,7 @@ x
               <img class="mySlides" src="images/customers/p1.png">
               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             </div>
-
-
-            <div class="col-md-5" id="col">
+            <div class="col-sm-5" id="col">
               <h4>About Menu</h4>
               <p>We are menu a little team</p>
 
@@ -110,11 +107,23 @@ x
         </div>
 
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid subscribe jumbotron text-centre">
+        <p><strong>Get our daily food items delivered to your email</strong></p>
+        <form>
+          <label for="email">Your e-mail address:</label>
+          <input id="e-mail" name="e-mail" placeholder="Your email" />
+          <input type="Subscribe" value="Subscribe" />
+        </form>
       </div>
-      <script src="js/splinter.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </div>
+    <footer>
+      <h1><img src="images/footerlogos/logo_white.png">MENU<h1>
+        <h2>That's What We Are</h2>
+        <p>2017 Menu Restaurant</p>
+    </footer>
+    <script src="js/splinter.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 
 </html>
