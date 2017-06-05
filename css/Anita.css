@@ -142,10 +142,10 @@ header{
 }
 .customers{
   text-align: center;
-margin: 75px 100px 75px 100px;
-border: 10px solid #fff;
-box-shadow: -1px 1px 5px 4px #E3E3E3;
-padding: 20px 20px 20px 20px;
+  margin: 75px 100px 75px 100px;
+  border: 10px solid #fff;
+  box-shadow: -1px 1px 5px 4px #E3E3E3;
+  padding: 20px 20px 20px 20px;
 }
 .button {
   padding: 15px 25px;
