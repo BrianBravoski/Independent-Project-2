@@ -100,15 +100,6 @@ footer{
   color: white;
   margin: -20px;
 }
-.foodbg{
-  background-image: url("../images/backgrounds/foodsBg.jpg");
-  padding: 5%;
-  width: 980px;
-  height:390px ;
-  font-family: Merriweather;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 .drinks{
   box-shadow: 1px 1px 1px 1px;
   padding:5px;
@@ -156,4 +147,47 @@ header{
   outline: none;
   color: #fff;
   background-color: #f15a29;
+}
+.btn-group button {
+    background-color: grey;
+    border: 1px solid;
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left;
+    width: 100%;
+    color: white;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41
+
+}
+.foodsBg{
+  border: 1px solid green;
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+  margin: 10px;
+  background-position: center;
+}
+button{
+  width: 25%;
+}
+.foods{
+  border: 2px solid brown;
+  width: 80%;
+  background-color: white;
+  color:#F15A29;
+  margin: 50px;
+
 }
