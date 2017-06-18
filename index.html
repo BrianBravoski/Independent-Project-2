@@ -9,6 +9,21 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/Anita.css" rel="stylesheet" type="text/css">
+    <script>
+      function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-100324057-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </head>
 
   <body>
@@ -83,37 +98,28 @@
         <div class="menu-tabs">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-12">
-                <ul class="nav nav-tabs">
-                  <li class="nav-item">
-                    <li class="active"><a data-toggle="tab" href="#fastfood">Fast Food</a></li>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">drinks</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">chicken</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a href="#" class="nav-link">rice</a>
-                  </li>
-                </ul>
-                <div class="tab-content">
-                  <div id=fastfood class="tab-pane fade in active">
-                    <table class="table">
-                      <tr>
-                        <td><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color: #F15A29; padding-top:100px"></td>
-                                              <td><img src="images/fastfood/chickenBurger.jpg" alt="" class="img-responsive"> <br/> Chicken Burger</td>
-                                              <td><img src="images/fastfood/beefBurger.jpg" alt="" class="img-responsive"> <br/> Beef Burger</td>
-                                              <td><img src="images/fastfood/chickenPizza.jpg" alt="" class="img-responsive"> <br/> Chicken Pizza</td>
-                                              <td><span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color: #F15A29; padding-top:100px"></td>
-                                          </tr>
-                                  </table>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
+              <div class=" btn-group container-fluid" style="width:100%">
+                <button type="button" name="button" style="width:25%">fastfood</button>
+                <button type="button" name="button" style="width:25%">Drinks</button>
+                <button type="button" name="button" style="width:25%">Chicken</button>
+                <button type="button" name="button" style="width:25%">Rice</button>
+              </div>
+              <div class="tab-content">
+                <div id=fastfood class="tab-pane fade in active">
+                  <table class="table">
+                    <tr>
+                      <td><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color: #F15A29; padding-top:100px"></td>
+                      <td><img src="images/fastfood/chickenBurger.jpg" alt="" class="img-responsive"> <br/> Chicken Burger</td>
+                      <td><img src="images/fastfood/beefBurger.jpg" alt="" class="img-responsive"> <br/> Beef Burger</td>
+                      <td><img src="images/fastfood/chickenPizza.jpg" alt="" class="img-responsive"> <br/> Chicken Pizza</td>
+                      <td><span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color: #F15A29; padding-top:100px"></td>
+                      </tr>
+                    </table>
                   </div>
+                </div>
+              </div>
+              </div>
+            </div>
             </div>
         </div>
     </div><!--End of menu section-->
@@ -125,30 +131,30 @@
             <h6>George Richard</h6>
             <p>Great food! Menu is awesome, their foods are not only great but also in the rightprice.I'll recommend then:)</p>
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                          <img class="mySlides" src="images/customers/p1.png">
-                          <img class="mySlides" src="images/customers/p2.png">
-                          <img class="mySlides" src="images/customers/p1.png">
-                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  </div>
-                  <div class="col-sm-5" id="col">
-                    <h4>About Menu</h4>
-                    <p>We are menu a little team</p>
+                        <img class="mySlides" src="images/customers/p1.png">
+                        <img class="mySlides" src="images/customers/p2.png">
+                        <img class="mySlides" src="images/customers/p1.png">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                </div>
+                <div class="col-sm-5" id="col">
+                  <h4>About Menu</h4>
+                  <p>We are menu a little team</p>
 
-                  </div>
                 </div>
               </div>
+            </div>
 
-            </div>
-            <div class="container-fluid subscribe jumbotron text-centre">
-              <p><strong>Get our daily food items delivered to your email</strong></p>
-              <form>
-                <input id="e-mail" name="e-mail" type="text" placeholder="Your email" />
-                <button class="button">Subscribe</button>
-              </form>
-            </div>
           </div>
-          <footer>
-            <h1><img src="images/footerlogos/logo_white.png"> MENU<h1>
+          <div class="container-fluid subscribe jumbotron text-centre">
+            <p><strong>Get our daily food items delivered to your email</strong></p>
+            <form>
+              <input id="e-mail" name="e-mail" type="text" placeholder="Your email" />
+              <button class="button last">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <footer>
+          <h1><img src="images/footerlogos/logo_white.png"> MENU<h1>
               <h2>That's What We Are</h2>
               <img src="images/footerlogos/facebook.png" alt="facebook">
                <img src="images/footerlogos/twitter.png" alt="twitter">
