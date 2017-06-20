@@ -30,67 +30,82 @@
 
     <div>
       <div class="jumbotron text-centre header">
-        <header>
-          <button class="hamburger">&#9776;</button>
-        </header>
-        <img src="images/logoBig.png">
-        <p>We Provide The Best Food<br>At The <strong>Right Price</strong></p>
-      </div>
-    </div>
-    <div class="container-fluid row">
-      <div class="col-sm-3">
-        <div class="row happy">
-          <p> Happy Hour </p>
+        <div class="" id="logo">
+          <div class="humberburger">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="pageMenu"> &#9776; </span>
+          </div>
+
+          <!-- The overlay -->
+          <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+              <a href="#">Contacts</a>
+              <a href="#">Events</a>
+              <a href="#">Menu</a>
+            </div>
+          </div>
+          <img src="images/logoBig.png">
+          <p>We Provide The Best Food<br>At The <strong>Right Price</strong></p>
         </div>
-        <div class="row party">
-          <p> Party Time</p>
+      </div>
+      <div class="container-fluid row">
+        <div class="col-sm-3">
+          <div class="row happy">
+            <p> Happy Hour </p>
+          </div>
+          <div class="row party">
+            <p> Party Time</p>
+          </div>
+        </div>
+        <div class="col-sm-3 breakfast">
+          <p>Breakfast</p>
+        </div>
+        <!--Break-->
+        <div class="col-sm-3 lunch">
+          <p>Lunch</p>
+        </div>
+        <div class="col-sm-3 dinner">
+          <p>Dinner</p>
         </div>
       </div>
-      <div class="col-sm-3 breakfast">
-        <p>Breakfast</p>
-      </div>
-      <!--Break-->
-      <div class="col-sm-3 lunch">
-        <p>Lunch</p>
-      </div>
-      <div class="col-sm-3 dinner">
-        <p>Dinner</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row ">
-        <div class="container col-sm-6 fastfood ">
-          <img src="images/fastFood1.jpg" class="img-responsive">
-          <img src="images/fastFood2.jpg" class="img-responsive">
+      <div class="container">
+        <div class="row ">
+          <div class="container col-sm-6 fastfood ">
+            <img src="images/fastFood1.jpg" class="img-responsive">
+            <img src="images/fastFood2.jpg" class="img-responsive">
+          </div>
+          <div class="col-sm-4">
+            <h1>Fast Foods</h1>
+            <h3>You'll love delicious fast food</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+              book. .
+            </p>
+            <button type="button" name="button" class="btn btn-default btn-lg"> <span class="glyphicon glyphicon-arrow-right"></span>      view gallery</button>
+          </div>
         </div>
-        <div class="col-sm-4">
-          <h1>Fast Foods</h1>
-          <h3>You'll love delicious fast food</h3>
+      </div>
+      <!--fASTFOODS SECTION-->
+      <div class="container-fluid row">
+        <div class="container col-sm-6 drink">
+          <h1>Drinks</h1>
+          <h3>We also produce delicious drinks</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            .
-          </p>
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <!--Text for Drinks-->
           <button type="button" name="button" class="btn btn-default btn-lg"> <span class="glyphicon glyphicon-arrow-right"></span>      view gallery</button>
         </div>
-      </div>
-    </div>
-    <!--fASTFOODS SECTION-->
-    <div class="container-fluid row">
-      <div class="container col-sm-6 drink">
-        <h1>Drinks</h1>
-        <h3>We also produce delicious drinks</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        <!--Text for Drinks-->
-        <button type="button" name="button" class="btn btn-default btn-lg"> <span class="glyphicon glyphicon-arrow-right"></span>      view gallery</button>
-      </div>
-      <div class="container col-sm-6 drinks">
-        <div class="row">
-          <img class="col-sm-6 img-responsive" src="images/drink1.jpg">
-          <img class="col-sm-6 img-responsive" src="images/drink2.jpg">
+        <div class="container col-sm-6 drinks">
+          <div class="row">
+            <img class="col-sm-6 img-responsive" src="images/drink1.jpg">
+            <img class="col-sm-6 img-responsive" src="images/drink2.jpg">
+          </div>
         </div>
+        <!--Images for drinks-->
       </div>
-      <!--Images for drinks-->
-    </div>
     </div>
     <div class="foodbg row">
       <!--menu section-->
